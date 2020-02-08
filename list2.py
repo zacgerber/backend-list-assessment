@@ -38,7 +38,7 @@ def test(got, expected):
         prefix = ' OK '
     else:
         prefix = '  X '
-    print('{} got: {} expected: {}'.format(prefix, repr(got), repr(expected)))
+    print('{} got: {}     expected: {}'.format(prefix, repr(got), repr(expected)))
 
 
 # Calls the above functions with interesting inputs.
@@ -49,6 +49,7 @@ def main():
     test(remove_adjacent([]), [])
     test(remove_adjacent([2, 2, 3, 3, 3, 4, 5, 2, 3]), [2, 3, 4, 5, 2, 3])
 
+    print('')
     print('linear_merge')
     test(linear_merge(['aa', 'xx', 'zz'], ['bb', 'cc']),
          ['aa', 'bb', 'cc', 'xx', 'zz'])

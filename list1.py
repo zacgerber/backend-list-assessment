@@ -59,7 +59,7 @@ def test(got, expected):
         prefix = ' OK '
     else:
         prefix = '  X '
-    print('{} got: {} expected: {}'.format(prefix, repr(got), repr(expected)))
+    print('{} got: {}     expected: {}'.format(prefix, repr(got), repr(expected)))
 
 
 # Calls the above functions with interesting inputs.
@@ -69,6 +69,7 @@ def main():
     test(match_ends(['', 'x', 'xy', 'xyx', 'xx']), 2)
     test(match_ends(['aaa', 'be', 'abc', 'hello']), 1)
 
+    print('')
     print('front_x')
     test(front_x(['bbb', 'ccc', 'axx', 'xzz', 'xaa']),
          ['xaa', 'xzz', 'axx', 'bbb', 'ccc'])
@@ -77,6 +78,7 @@ def main():
     test(front_x(['mix', 'xyz', 'apple', 'xanadu', 'aardvark']),
          ['xanadu', 'xyz', 'aardvark', 'apple', 'mix'])
 
+    print('')
     print('sort_last')
     test(sort_last([(1, 3), (3, 2), (2, 1)]),
          [(2, 1), (3, 2), (1, 3)])
