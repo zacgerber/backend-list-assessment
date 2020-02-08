@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+Kenzie assignment: List2
+"""
 
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
@@ -8,7 +11,9 @@
 # Google's Python Class
 # http://code.google.com/edu/languages/google-python-class/
 
-# Additional basic list exercises
+# Instructions:
+# Complete each of these list manipulation exercises in the same way as the 
+# previous List1 excercises.
 
 # D. Given a list of numbers, return a list where
 # all adjacent == elements have been reduced to a single element,
@@ -18,16 +23,17 @@
 
 
 def remove_adjacent(nums):
-    """Your code goes here.  Edit this docstring."""
+    # your code here
     return
 
 
 # E. Given two lists sorted in increasing order, create and return a merged
 # list of all the elements in sorted order. You may modify the passed in lists.
 # The solution should work in "linear" time, making a single pass of both lists.
-# Hint: Don't use `sort` or `sorted` -- they are not linear time.
+# Hint: Don't use `sort` or `sorted` -- they are not O(n) linear time, and the two lists
+# are already provided in ascending sorted order.
 def linear_merge(list1, list2):
-    """Your code goes here.  Edit this docstring."""
+    # your code here
     return
 
 

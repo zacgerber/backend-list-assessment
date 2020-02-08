@@ -1,15 +1,19 @@
-# List1 & List2 Assignment
-For this assignment, you'll be completing some list manipulation functions within the list1.py and list2.py files.
+# List1 and List2
+For this assignment, you'll be coding some list manipulation functions within the [list1.py](./list1.py) and [list2.py](./list2.py) files.
 
 There is some light dependency on knowing how
 [Functions](https://docs.python.org/2/tutorial/controlflow.html#defining-functions)
 work in python in terms of argument passing and return values, but you should
 be able to figure it out as you go.
 
-[list1.py](./list1.py) -- Complete the list functions in list1.py,
-based on your knowledge of Python list iteration and indexing.
+## Instructions
+Complete all of the list functions in [list1.py](./list1.py) and [list2.py](./list2.py) based on your knowledge of Python lists, indexing, slicing, and built-in methods.  Make sure all the included tests are passing, before submitting your work.
 
-[list2.py](./list2.py) -- Additional list function completions.
+Run the programs from the command line like this:
+```console
+$ python list1.py
+```
+ 
 
 ## PR (Pull Request) Workflow for this Assignment
 1. *Fork* this repository into your own personal github account.

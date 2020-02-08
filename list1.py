@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+"""
+Kenzie List1 Assignment
+"""
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 # http://www.apache.org/licenses/LICENSE-2.0
@@ -8,14 +10,13 @@
 # Google's Python Class
 # http://code.google.com/edu/languages/google-python-class/
 
-# Basic list exercises
-# Fill in the code for the functions below. main() is already set up
-# to call the functions with a few different inputs,
-# printing 'OK' when each function is correct.
-# The starter code for each function includes a 'return'
-# which is just a placeholder for your code.
-# It's ok if you do not complete all the functions, and there
-# are some additional functions to try in list2.py.
+# Instructions:
+# Complete each function below by writing the code for it. main() is already 
+# set up to test all the functions with a few different inputs, printing 'OK' when 
+# each function returns the correct result.
+# The starter code for each function includes a bare 'return' which is just a 
+# placeholder for your code.
+
 
 # A. match_ends
 # Given a list of strings, return the count of the number of
@@ -25,7 +26,7 @@
 
 
 def match_ends(words):
-    """Your code goes here.  Edit this docstring."""
+    # your code here
     return
 
 
@@ -37,7 +38,7 @@ def match_ends(words):
 # Hint: this can be done by making 2 lists and sorting each of them
 # before combining them.
 def front_x(words):
-    """Your code goes here.  Edit this docstring."""
+    # your code here
     return
 
 
@@ -48,7 +49,7 @@ def front_x(words):
 # [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
 # Hint: use a custom key= function to extract the last element form each tuple.
 def sort_last(tuples):
-    """Your code goes here.  Edit this docstring."""
+    # your code here
     return
 
 
