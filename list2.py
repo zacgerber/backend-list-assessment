@@ -48,6 +48,7 @@ def remove_adjacent(nums):
 
 
 def linear_merge(list1, list2):
+
     result = []
 
     while len(list1) and len(list2):
