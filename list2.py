@@ -28,8 +28,12 @@ __author__ = "???"
 
 
 def remove_adjacent(nums):
-    # your code here
-    return
+    l1 = []
+
+    for num in nums:
+        if len(l1) == 0 or num != l1[-1]:
+            l1.append(num)
+    return l1
 
 
 # E. linear_merge
@@ -44,8 +48,17 @@ def remove_adjacent(nums):
 
 
 def linear_merge(list1, list2):
-    # your code here
-    return
+    result = []
+
+    while len(list1) and len(list2):
+        if list1[0] < list2[0]:
+            result.append(list1.pop(0))
+        else:
+            result.append(list2.pop(0))
+
+    result.extend(list1)
+    result.extend(list2)
+    return result
 
 
 # Provided simple test() function used in main() to print
